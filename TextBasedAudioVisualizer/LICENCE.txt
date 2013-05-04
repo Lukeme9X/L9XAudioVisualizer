@@ -1,0 +1,9 @@
+Lukeme9X's Git Licence for "Text Based Audio Visualizer":
+
+You cannot re-distribute this source code unless you modify it functionaly, code-wise and astheticly.
+
+You must give me credit to me and Relisoft if you distribute this branch of the original code by Relisof.com
+You can not comercialy distribute binaries or source code of this branch, use relisofts original and work things out yourself!
+This licence inherits Relisoft.coms own licence, if your not sure, read theirs as well.
+
+You must distribute this licence with any source code modifications and/or binaries.

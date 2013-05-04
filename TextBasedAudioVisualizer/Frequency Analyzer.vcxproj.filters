@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{c3408ea2-077b-493a-a459-dac7578ef26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{b65c952a-08b7-4d5b-b3b4-55cf2eab9cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{45643e60-f346-4919-b449-1546dbbec5b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\fft.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Resource\rs.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Resource\rs.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Resource\CC.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource\fft.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource\resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Active.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Canvas.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Controller.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Controls.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Dir.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\FileGet.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\MetaCtrl.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Procedure.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Thread.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\WinClass.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\WinEx.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\WinMaker.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AsyncDevice.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioFile.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\BufferedDevice.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Fft.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\FilePlayer.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\ImagePlayer.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Tuner.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\WaveFormat.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\WaveHeader.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\WaveIn.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\WaveOut.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h" />
+    <ClInclude Include="Control.h" />
+    <ClInclude Include="DlgProcedure.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="MediaFile.h" />
+    <ClInclude Include="Painter.h" />
+    <ClInclude Include="Params.h" />
+    <ClInclude Include="View.h" />
+    <ClInclude Include="ViewControl.h" />
+    <ClInclude Include="Views.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lib\Active.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Controls.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Dir.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\FileGet.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Procedure.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\WinClass.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\WinMaker.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioFile.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\BufferedDevice.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Fft.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\ImagePlayer.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Tuner.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\WaveFormat.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\WaveIn.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\WaveOut.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp" />
+    <ClCompile Include="DlgProcedure.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Painter.cpp" />
+    <ClCompile Include="ViewControl.cpp" />
+    <ClCompile Include="Views.cpp" />
+  </ItemGroup>
+</Project>
